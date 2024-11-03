@@ -71,19 +71,7 @@ int lastbuttonstate = HIGH;
 int buttonstate = HIGH;
 
 bool endedval = false;
-//test
 
-/* bool warning()
-{
-  lcd_1.clear();
-  lcd_1.print("Confirm?");
-
-  if (digitalRead(secondbuttonApin))
-  {
-    confirm = true;
-    return true;
-  }
-} */
 
 void timefive()
 {
